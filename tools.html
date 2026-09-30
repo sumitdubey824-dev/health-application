@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Health Awareness Campaign Using Mobile Applications - CEP Project"><title>Health Tools | CEP Health Awareness</title><link rel="stylesheet" href="style.css"></head><body><nav class="navbar"><div class="container nav-inner">
+<a class="brand" href="index.html"><span class="brand-icon">❤</span><span>CEP Health Awareness</span></a>
+<button class="menu-toggle" aria-label="Toggle menu">☰</button>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li><li><a href="health-awareness.html">Health Awareness</a></li>
+<li><a href="apps.html">Health Applications</a></li><li><a href="tools.html">Health Tools</a></li>
+<li><a href="survey.html">Survey</a></li><li><a href="results.html">Survey Results</a></li>
+<li><a href="community.html">Community Engagement</a></li><li><a href="about.html">About Project</a></li>
+</ul></div></nav><main class="">
+<section class="page-hero"><div class="container"><span class="kicker">Health Tools</span><h1>Interactive health-awareness demonstrations</h1><p>These simple browser-based tools demonstrate how JavaScript and localStorage can be used in a student web project.</p></div></section>
+<section class="section"><div class="container tool-wrap">
+<div class="card"><div class="card-icon">📈</div><h2>Daily Health Score</h2><p class="lead">Enter today's basic activity information to calculate a simple educational score.</p>
+<div class="form-group"><label for="steps">Daily Steps</label><input id="steps" type="number" min="0" placeholder="e.g. 6000"></div>
+<div class="form-group"><label for="water">Water Intake in Glasses</label><input id="water" type="number" min="0" step="1" placeholder="e.g. 6"></div>
+<div class="form-group"><label for="exercise">Exercise Minutes</label><input id="exercise" type="number" min="0" placeholder="e.g. 30"></div>
+<div class="form-group"><label for="sleep">Sleep Hours</label><input id="sleep" type="number" min="0" max="24" step=".5" placeholder="e.g. 8"></div>
+<button class="btn btn-primary" id="scoreBtn">Calculate Score</button><div class="score" id="scoreOutput"></div>
+<div class="notice">Educational project demonstration only — this score is not a medical assessment and should not be used to diagnose or treat any condition.</div></div>
+<div class="card"><div class="card-icon">💊</div><h2>Medicine Reminder</h2><p class="lead">Save simple medicine-name and time reminders in this browser.</p>
+<form id="reminderForm"><div class="form-group"><label for="medicineName">Medicine Name</label><input id="medicineName" required placeholder="e.g. Vitamin tablet"></div>
+<div class="form-group"><label for="medicineTime">Time</label><input id="medicineTime" type="time" required></div>
+<button class="btn btn-primary" type="submit">Add Reminder</button></form>
+<div class="reminder-list" id="reminderList"></div><div class="notice">Reminder data is stored only in this browser using localStorage. It does not send notifications or replace medical advice.</div></div>
+</div></section></main><footer class="footer"><div class="container footer-grid">
+<div><h3>Health Awareness Campaign</h3><p>Community Engagement Project focused on health awareness through mobile applications and responsible digital health practices.</p></div>
+<div><h3>Project</h3><p><a href="about.html">About Project</a><br><a href="results.html">Survey Results</a><br><a href="community.html">Community Engagement</a></p></div>
+<div><h3>Contact</h3><p>Sumit Dubey<br>T.Y. B.Sc. Information Technology<br><a href="mailto:dubeysumit920@gmail.com">dubeysumit920@gmail.com</a></p></div>
+</div><div class="container footer-bottom">© 2026–2027 Sumit Dubey · The SIA College of Higher Education (Autonomous)</div></footer><script src="script.js"></script></body></html>
